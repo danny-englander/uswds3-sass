@@ -1,0 +1,6 @@
+## ignore material-icons
+assets/uswds/img/material-icons
+node_modules
+.idea
+.DS_Store
+*.code-workspace
