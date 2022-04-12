@@ -22,7 +22,7 @@ I’d like to iterate on this repo in the following ways to get a better feeling
 * [Node Version Manager](https://github.com/nvm-sh/nvm)
 * [USWDS](https://designsystem.digital.gov/)
 * [USWDS Components](https://designsystem.digital.gov/components/overview/)
-* USWDS Design Tokens
+* [USWDS Design Tokens](https://designsystem.digital.gov/design-tokens/)
 * [United States Web Design System on Github](https://github.com/uswds/uswds)
 * [USWDS 3.0.0 Beta 4](https://github.com/uswds/uswds/discussions/4587)
 * [USWDS browserSync integration](https://github.com/uswds/uswds-compile/issues/17)
