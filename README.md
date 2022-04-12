@@ -26,4 +26,4 @@ I’d like to iterate on this repo in the following ways to get a better feeling
 * [United States Web Design System on Github](https://github.com/uswds/uswds)
 * [USWDS 3.0.0 Beta 4](https://github.com/uswds/uswds/discussions/4587)
 * [USWDS browserSync integration](https://github.com/uswds/uswds-compile/issues/17)
-* Eleventy
+* [Eleventy](https://www.11ty.dev/) / [https://github.com/11ty/eleventy/](https://github.com/11ty/eleventy/)
