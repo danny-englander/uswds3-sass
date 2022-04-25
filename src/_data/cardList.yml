@@ -1,45 +1,42 @@
 ---
 items:
   #1
-  - title: Card Media Top
+  - title: Card Item One
     body: Duis bibendum. Morbi non quam nec dui luctus rutrum.
       Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.Fusce lacus purus,
       aliquet at, feugiat non, pretium quis, lectus.
     media_config: top
-    href: sliders-link
-    image: anthony-delanoix-14635-960px.jpg
-    category: [black-and-white]
-    slug: black-and-white
+    href: '#'
+    image: mher-galstyan-308462-960px.jpg
+    slug: card-1
     orientation: landscape
     alt_title:
     button_text: 'Read more'
     button_style: ''
 
   #2
-  - title: Card Media Bottom
+  - title: Card Item Two
     body: Sed porttitor lectus nibh. Curabitur arcu erat,
       accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt.
       Proin eget tortor risus.
     media_config: bottom
-    href: sliders-link
+    href: '#'
     image: bence-boros-178730-960px.jpg
-    category: [urban]
-    slug: urban
+    slug: card-2
     orientation: landscape
     alt_title:
     button_text: 'Learn more'
     button_style: 'hollow btn--arrow'
 
   #3
-  - title: Card with Inverse Background
+  - title: Card Item Three
     body: Donec sollicitudin molestie malesuada. Mauris blandit aliquet elit,
       eget tincidunt nibh pulvinar a. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
       Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.
     media_config: top
-    href: sliders-link
+    href: '#'
     image: brittany-gaiser-251605-960px.jpg
-    category: [vintage]
-    slug: vintage
+    slug: card-3
     orientation: landscape
     alt_title:
     class: inverse
@@ -47,33 +44,29 @@ items:
     button_style: 'btn--secondary'
 
   #4
-  - title: Card Media Left
-    body: |
-      Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-      In sagittis dui vel nisl. Duis ac nibh. <a href="#">dolor sapien iaculis</a> Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+  - title: Card Item Four
+    body: Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+      In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus,
+      aliquet at, feugiat non, pretium quis, lectus.
       Phasellus in felis. Donec semper sapien a libero. Nam dui.
     media_config: left
-    href: sliders-link
+    href: '#'
     image: bruno-martins-25865-960px.jpg
-    category: [wanderlust]
-    slug: wanderlust
+    slug: card-4
     orientation: landscape
     alt_title:
     class:
-    button_text: 'Donate Now'
+    button_text: 'Read this story'
 
   #5
-  - title: Card Media Right, Inverse Background
-    body: |
-      Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-      In sagittis dui vel nisl. Duis ac nibh. <a href="#">dolor sapien iaculis</a> Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+  - title: Card Item Five
+    body: Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+      In sagittis dui vel nisl. Duis ac nibh.
+      Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
     media_config: right
-    href: sliders-link
-    image: mher-galstyan-308462-960px.jpg
-    category: [wanderlust]
-    slug: wanderlust
+    href: '#'
+    image: anthony-delanoix-14635-960px.jpg
+    slug: card-5
     orientation: landscape
     alt_title:
     class: inverse
