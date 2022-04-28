@@ -14,6 +14,7 @@ uswds.settings.version = 3;
 
 uswds.paths.dist.css = './src/assets/css';
 uswds.paths.dist.theme = './src/sass';
+uswds.paths.dist.img = './src/assets/uswds/img';
 
 /**
  * Exports

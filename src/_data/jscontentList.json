@@ -7,7 +7,8 @@
       "image": "mher-galstyan-308462-960px.jpg",
       "link": "/home",
       "alt_text": "veniam dolore pariatur nostrud qui cupidatat",
-      "button_text": "quis ipsum"
+      "button_text": "quis ipsum",
+      "id": "a1"
     },
     {
       "title": "Ullamco exercitation eu ex anim deserunt i",
@@ -16,7 +17,8 @@
       "image": "bence-boros-178730-960px.jpg",
       "link": "/sbin",
       "alt_text": "tempor velit labore proident cillum deserunt",
-      "button_text": "consectetur anim dolore"
+      "button_text": "consectetur anim dolore",
+      "id": "a2"
     },
     {
       "title": "Et cillum excepteur irure excepteur excepteur nulla ve",
@@ -25,7 +27,8 @@
       "image": "brittany-gaiser-251605-960px.jpg",
       "link": "/usr/bin",
       "alt_text": "aute ut nostrud dolore amet",
-      "button_text": "ipsum cupidatat adipisicing"
+      "button_text": "ipsum cupidatat adipisicing",
+      "id": "a3"
     },
     {
       "title": "Ad ut occaecat adipisicing nulla aute proident deser",
