@@ -13,8 +13,8 @@ uswds.settings.version = 3;
  */
 uswds.paths.dist.css = './src/assets/css';
 uswds.paths.dist.theme = './src/sass';
-uswds.paths.dist.img = './_site/assets/uswds/img';
-uswds.paths.dist.fonts = './_site/assets/uswds/fonts';
+uswds.paths.dist.img = './src/assets/uswds/img';
+uswds.paths.dist.fonts = './src/assets/uswds/fonts';
 
 /**
  * Exports

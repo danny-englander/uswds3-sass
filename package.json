@@ -15,7 +15,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx eleventy --serve",
     "build": "npx eleventy",
-    "compile": "npx gulp compile"
+    "compile": "npx gulp compile",
+    "watch": "npx gulp watch"
   },
   "repository": {
     "type": "git",
