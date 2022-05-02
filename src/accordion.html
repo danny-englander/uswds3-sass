@@ -4,19 +4,21 @@ title: USWDS Accordion
 ---
 <h1>{{ title }}</h1>
 
-<div class="usa-accordion usa-accordion--bordered" >
-	{% for item in jscontentList.items | limit(3) %}
-    <!-- Use the accurate heading level to maintain the document outline -->
-    <h4 class="usa-accordion__heading">
-<button class="usa-accordion__button" aria-expanded="true" aria-controls="{{ item.id }}">
+<div class="usa-accordion usa-accordion--bordered" aria-multiselectable="true">
+  {% for item in jscontentList.items | limit(3) %}
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <h2 class="usa-accordion__heading font-sans-xl">
+    <button class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="{{ item.id }}">
+      {{ item.title }}
+    </button>
+  </h2>
 
-        {{ item.title }}
-      </button>
-    </h4>
-    <div id="{{ item.id }}" class="usa-accordion__content">
-      <p>
-        {{ item.body }}
-      </p>
-    </div>
+  <div id="{{ item.id }}" class="usa-accordion__content">
+    <p>
+      {{ item.body }}
+    </p>
+  </div>
   {% endfor %}
 </div>

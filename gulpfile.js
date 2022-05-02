@@ -11,10 +11,10 @@ uswds.settings.version = 3;
  * Path settings
  * Set as many as you need
  */
-
 uswds.paths.dist.css = './src/assets/css';
 uswds.paths.dist.theme = './src/sass';
-uswds.paths.dist.img = './src/assets/uswds/img';
+uswds.paths.dist.img = './_site/assets/uswds/img';
+uswds.paths.dist.fonts = './_site/assets/uswds/fonts';
 
 /**
  * Exports
@@ -25,3 +25,7 @@ uswds.paths.dist.img = './src/assets/uswds/img';
 exports.init = uswds.init;
 // Compile function.
 exports.compile = uswds.compile;
+exports.watch = uswds.watch;
+exports.update = uswds.updateUswds;
+exports.default = uswds.watch;
+exports.copyAssets = uswds.copyAssets;

@@ -13,7 +13,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx eleventy --serve",
+    "dev": "npx eleventy --serve",
     "build": "npx eleventy",
     "compile": "npx gulp compile"
   },
