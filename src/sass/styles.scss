@@ -1,0 +1,113 @@
+/*
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+========================================
+========================================
+========================================
+*/
+
+// -------------------------------------
+// Import individual theme settings...
+// Dont alter these ever.
+// @import "uswds-theme-general";
+// @import "uswds-theme-typography";
+// @import "uswds-theme-spacing";
+// @import "uswds-theme-color";
+// @import "uswds-theme-utilities";
+// @import "uswds-theme-components";
+
+// ...or import custom theme settings.
+// @import "usda-uswds-theme-overrides";
+
+//https://designsystem.digital.gov/documentation/migration/#format-and-load-your-uswds-settings
+
+@use "uswds-core" with (
+  $theme-image-path: "../uswds/img",
+  $theme-font-path: "../uswds/fonts",
+  $theme-show-notifications: false,
+  $theme-font-type-sans: "public-sans",
+  $theme-font-weight-heavy: 900,
+  $theme-banner-background-color: "ink",
+  $theme-banner-link-color: "indigo-30",
+  $theme-banner-max-width: none,
+  $theme-identifier-max-width: none,
+  $theme-h3-font-size: "xl",
+  $theme-card-gap: 8,
+  $theme-card-margin-bottom: 8,
+  $theme-card-padding-perimeter: 4,
+  $theme-card-padding-y: 2,
+  $utilities-use-important: true
+);
+
+@use "usa-banner";
+@use "usa-card";
+@use "usa-button";
+@use "usa-prose";
+@use "uswds-utilities";
+@use "usa-accordion";
+@use "usa-icon";
+@use "usa-icon-list";
+// -------------------------------------
+// Import individual USWDS packages...
+// See https://designsystem.digital.gov/components/
+
+// First import required and global packages...
+// @import 'packages/uswds-core';
+// @import 'packages/uswds-global';
+
+// Then import individual component packages...
+// @import 'packages/uswds-form-controls';
+// @import 'packages/uswds-form-templates';
+// @import 'packages/uswds-layout-grid';
+// @import 'packages/uswds-typography';
+// @import 'packages/uswds-validation';
+// @import 'packages/usa-accordion';
+// @import 'packages/usa-alert';
+// @import 'packages/usa-banner';
+// @import 'packages/usa-breadcrumb';
+// @import 'packages/usa-button-group';
+// @import 'packages/usa-button';
+// @import 'packages/usa-card';
+// @import 'packages/usa-checklist';
+// @import 'packages/usa-collection';
+// @import 'packages/usa-footer';
+// @import 'packages/usa-header';
+// @import 'packages/usa-hero';
+// @import 'packages/usa-icon-list';
+// @import 'packages/usa-icons';
+// @import 'packages/usa-identifier';
+// @import 'packages/usa-layout';
+// @import 'packages/usa-link';
+// @import 'packages/usa-media-block';
+// @import 'packages/usa-megamenu';
+// @import 'packages/usa-modal';
+// @import 'packages/usa-nav-container';
+// @import 'packages/usa-nav';
+// @import 'packages/usa-navbar';
+// @import 'packages/usa-pagination';
+// @import 'packages/usa-process-list';
+// @import 'packages/usa-search';
+// @import 'packages/usa-section';
+// @import 'packages/usa-sidenav';
+// @import 'packages/usa-site-alert';
+// @import 'packages/usa-skipnav';
+// @import 'packages/usa-step-indicator';
+// @import 'packages/usa-summary-box';
+// @import 'packages/usa-table';
+// @import 'packages/usa-tag';
+
+// or package sets...
+// @import 'packages/uswds-components';
+// @import 'packages/uswds-utilities';
+
+// -------------------------------------
+// ...or import the complete USWDS kit
+
+// @import "uswds";
+
+// -------------------------------------
+// Import theme custom styles
+
+@import "usda-uswds-theme-custom-styles";

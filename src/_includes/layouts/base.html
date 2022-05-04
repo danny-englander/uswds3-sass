@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    {# Include the HTML head info. #}
+    {% include "basehead.html" %}
+  </head>
+
+  <body class="usa-prose">
+
+    <div class="grid-container-widescreen">
+      {{ content | safe }}
+    </div>
+
+    {# Include the HTML footer info. #}
+    {% include "basefooter.html" %}
+  </body>
+</html>

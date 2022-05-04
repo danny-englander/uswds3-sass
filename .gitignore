@@ -1,6 +1,9 @@
-## ignore material-icons
+## Ignore specific files and patterns.
 assets/uswds/img/material-icons
 node_modules
 .idea
 .DS_Store
 *.code-workspace
+_site
+src/assets/css/*.css.map
+assets/uswds/js/*.js.map
