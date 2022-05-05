@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Home",
+    "name": "index"
+  },
+  {
+    "title": "Find a service",
+    "name": "find-a-service",
+        "children": [
+          {
+            "title": "Lorum Ipsum",
+            "name": "search"
+          },
+          {
+            "title": "Ipsum Dolar",
+            "name": "narrative service"
+          },
+          {
+            "title": "Consectetur Adipiscing",
+            "name": "categories"
+          }
+        ]
+  },
+  {
+    "title": "Extras",
+    "name": "extras",
+    "children": [
+      {
+        "title": "Nullam Porta",
+        "name": "search"
+      },
+      {
+        "title": "Maximus Ultricies ",
+        "name": "narrative service"
+      },
+      {
+        "title": "Categories",
+        "name": "categories"
+      }
+    ]
+  },
+  {
+    "title": "Another menu item",
+    "name": "foo-bar"
+  }
+]

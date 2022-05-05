@@ -1,0 +1,30 @@
+{# Main nav from JSON data #}
+<ul>
+  {% for val in mainNav %}
+  {% if val.children %}
+  <li>
+    <a>
+      <span>{{ val.title }}</span>
+    </a>
+
+    <ul>
+      {% for val in val.children %}
+      <li>
+        <a href="{{ val.name | lower }}.html">
+          {{ val.title }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </li>
+
+  {% else %}
+
+  <li>
+    <a href="{{ val.name | lower }}.html">
+      <span>{{ val.title }}</span>
+    </a>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
