@@ -1,17 +1,17 @@
 {# Main nav from JSON data #}
 <ul>
-  {% for val in mainNav %}
-  {% if val.children %}
+  {% for item in mainNav %}
+  {% if item.children %}
   <li>
     <a>
-      <span>{{ val.title }}</span>
+      <span>{{ item.title }}</span>
     </a>
 
     <ul>
-      {% for val in val.children %}
+      {% for item in item.children %}
       <li>
-        <a href="{{ val.name | lower }}.html">
-          {{ val.title }}
+        <a href="{{ item.name | lower }}.html">
+          {{ item.title }}
         </a>
       </li>
       {% endfor %}
@@ -21,8 +21,8 @@
   {% else %}
 
   <li>
-    <a href="{{ val.name | lower }}.html">
-      <span>{{ val.title }}</span>
+    <a href="{{ item.name | lower }}.html">
+      <span>{{ item.title }}</span>
     </a>
   </li>
   {% endif %}
