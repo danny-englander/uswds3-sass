@@ -38,9 +38,13 @@
   $theme-card-margin-bottom: 8,
   $theme-card-padding-perimeter: 4,
   $theme-card-padding-y: 2,
-  $utilities-use-important: true
+  $utilities-use-important: true,
+  // $theme-header-max-width: "desktop-lg",
+  // $theme-header-min-width: "tablet-lg"
 );
 
+@use "usa-header";
+@use "usa-nav";
 @use "usa-banner";
 @use "usa-card";
 @use "usa-button";
@@ -49,6 +53,10 @@
 @use "usa-accordion";
 @use "usa-icon";
 @use "usa-icon-list";
+@use "uswds-fonts";
+@use "uswds-helpers";
+@use "usa-search";
+
 // -------------------------------------
 // Import individual USWDS packages...
 // See https://designsystem.digital.gov/components/
