@@ -4,28 +4,6 @@ title: USWDS Cards
 ---
 <h1>{{ title }}</h1>
 
-<h2>Default Card</h2>
-
-<ul class="usa-card-group">
-  {% for item in jscontentList.items | limit(3) %}
-  <li class="desktop:grid-col-4 usa-card">
-    <div class="usa-card__container">
-      <header class="usa-card__header">
-        <h2 class="usa-card__heading">{{ item.title }}</h2>
-      </header>
-      <div class="usa-card__body">
-        <p>{{ item.teaser }}</p>
-      </div>
-      <div class="usa-card__footer">
-        <button class="usa-button">
-          {{ item.button_text }}
-        </button>
-      </div>
-    </div>
-  </li>
-  {% endfor %}
-</ul>
-
 <h2>Card with Media top</h2>
 
 <ul class="usa-card-group">
@@ -56,6 +34,56 @@ title: USWDS Cards
         </a>
       </div>
 
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+
+<h2>Card Media Side</h2>
+
+<ul class="usa-card-group">
+  {% for item in jscontentList.items.slice(2, 5) | reverse %}
+  <li class="usa-card usa-card--flag">
+    <div class="usa-card__container">
+      <div class="usa-card__header">
+        <h2 class="usa-card__heading">{{ item.title }}</h2>
+      </div>
+      <div class="usa-card__media">
+        <div class="usa-card__img">
+          <img
+            src="/assets/images/{{ item.image }}"
+            alt="A placeholder image"
+            />
+        </div>
+      </div>
+      <div class="usa-card__body">
+        <p>{{ item.body }}</p>
+      </div>
+      <div class="usa-card__footer">
+        <button class="usa-button">{{ item.button_text }}</button>
+      </div>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+
+<h2>Default Card</h2>
+
+<ul class="usa-card-group">
+  {% for item in jscontentList.items | limit(3) %}
+  <li class="desktop:grid-col-4 usa-card">
+    <div class="usa-card__container">
+      <header class="usa-card__header">
+        <h2 class="usa-card__heading">{{ item.title }}</h2>
+      </header>
+      <div class="usa-card__body">
+        <p>{{ item.teaser }}</p>
+      </div>
+      <div class="usa-card__footer">
+        <button class="usa-button">
+          {{ item.button_text }}
+        </button>
+      </div>
     </div>
   </li>
   {% endfor %}
