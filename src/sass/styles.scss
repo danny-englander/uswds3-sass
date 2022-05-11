@@ -39,8 +39,8 @@
   $theme-card-padding-perimeter: 4,
   $theme-card-padding-y: 2,
   $utilities-use-important: true,
-  // $theme-header-max-width: "desktop-lg",
-  // $theme-header-min-width: "tablet-lg"
+  $theme-header-max-width: "desktop-lg",
+  $theme-header-min-width: "tablet-lg"
 );
 
 @use "usa-header";

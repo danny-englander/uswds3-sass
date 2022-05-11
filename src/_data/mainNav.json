@@ -1,11 +1,13 @@
 [
   {
     "title": "Home",
-    "name": "index"
+    "name": "index",
+    "id": "nav-one"
   },
   {
     "title": "Find a service",
     "name": "find-a-service",
+    "id": "nav-two",
         "children": [
           {
             "title": "Lorum Ipsum",
@@ -24,6 +26,7 @@
   {
     "title": "Extras",
     "name": "extras",
+    "id": "nav-three",
     "children": [
       {
         "title": "Nullam Porta",
@@ -41,6 +44,7 @@
   },
   {
     "title": "Another menu item",
-    "name": "foozball"
+    "name": "foozball",
+    "id": "nav-four"
   }
 ]
